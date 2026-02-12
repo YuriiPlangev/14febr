@@ -2,9 +2,10 @@
   "name": "date-invitation-quiz",
   "version": "1.0.0",
   "private": true,
+  "engines": { "node": ">=18" },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node ./node_modules/vite/bin/vite.js build",
     "preview": "vite preview"
   },
   "dependencies": {
